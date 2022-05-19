@@ -1,5 +1,18 @@
 ### URL
-- https://secureapi.test.eximbay.com/paytest/demo/ui_demo.do  
+- 데모 페이지 : https://secureapi.test.eximbay.com/paytest/demo/ui_demo.do  
+- 리포트 페이지 : https://reporter-test.eximbay.com:14000/admin/index.do
+
+### 도구
+
+- 내부망, 외부망 -> 자료 전송
+- 클립도구로 텍스트 복사
+- FileZilla : 서버로 파일 전송
+- XShell : 로그 확인
+- Java Version : 1.8.0_202
+- Workbench : DB 도구
+
+- Docswave : 결제 문서
+- OKR : 스크럼 업로드
 
 
 ### 가맹점 검색  
@@ -15,7 +28,7 @@
 - Status URL : 사용자 결제 완료 시 백 단 데이터 API 전송 URL  
 
 
-### 캡처 , 어스
+### Capture, Auth
 
 - Auth : 사용자가 항공 티켓과 같은 서비스에서 카드 인증을 하고 돈이 바로 빠지지 않음. Auth -> Capture 과정을 거쳐야한다.
 - Capture :  Auth 기반 Capture가 되어야 돈이 빠질 수 있다.
