@@ -16,7 +16,20 @@
 
 
 ### 캡처 , 어스
+
 - Auth : 사용자가 항공 티켓과 같은 서비스에서 카드 인증을 하고 돈이 바로 빠지지 않음. Auth -> Capture 과정을 거쳐야한다.
 - Capture :  Auth 기반 Capture가 되어야 돈이 빠질 수 있다.
+- Payment 프로세스에 Auth 와 Capture로 나누어져 있고, 테스트 시 transid, ref 필요.
+
+
+### fgkey  
+
+- request.jsp 참고  
+
+1. makeAllparam 함수 param Key 값 정렬 [Collection.Sort]
+2. makeAllparam 함수 secretKey +? + param 값 
+3. toHexString 함수 16진수로 변경.
+4. encryptSHA256 함수 사용하여 fgkey 생성.
+
 
 
