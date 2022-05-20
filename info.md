@@ -39,10 +39,15 @@
 
 - request.jsp 참고  
 
-1. makeAllparam 함수 param Key 값 정렬 [Collection.Sort]
+1. makeAllparam 함수 param Key 값 정렬 [ Collection.Sort ]
 2. makeAllparam 함수 secretKey +? + param 값 
 3. toHexString 함수 16진수로 변경.
 4. encryptSHA256 함수 사용하여 fgkey 생성.
 
 
+### MCA, MCP, DCC
+
+- MCA : MCA는 가맹점이 원하는 통화로 카드 결제를 진행
+- MCP : 웹사이트에서 1시가만 마다 제공되는 화율로 카드 대금 청구
+- DCC : 고객이 원하는 통화로 결제 가능 ex) 단말기 선택 ( Won, Dollar 선택 )
 
