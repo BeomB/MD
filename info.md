@@ -1,6 +1,3 @@
-### URL
-- 데모 페이지 : https://secureapi.test.eximbay.com/paytest/demo/ui_demo.do  
-- 리포트 페이지 : https://reporter-test.eximbay.com:14000/admin/index.do
 
 ### 도구
 
