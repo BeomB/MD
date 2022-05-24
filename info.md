@@ -64,6 +64,8 @@
 
 
  ### LOG 확인
+
+
  - TEST UI를 통해 테스트 진행
  - 내부망 DB Table에서 결과 값 확인 (시간 정렬)
  - TEST UI로 진행한 거래 건 transID 복사
