@@ -7,7 +7,6 @@
 - XShell : 로그 확인
 - Java Version : 1.8.0_202
 - Workbench : DB 도구
-
 - Docswave : 결제 문서
 - OKR : 스크럼 업로드
 
@@ -24,7 +23,6 @@
 - return URL : 사용자 결제 완료 시 사용자한테 다시 보여주는 화면
 - Status URL : 사용자 결제 완료 시 백 단 데이터 API 전송 URL  
 - 노티 = Status URL, transid도 고유값.
-
 
 
 ### Capture, Auth
@@ -59,7 +57,17 @@
  
 
  ### 서버
+
 - SVN -> Build -> 허드슨을 통해 dev 서버 반영
 - 파일 질라를 통해 테스트 서버 반영
 
+
+
+ ### LOG 확인
+ - TEST UI를 통해 테스트 진행
+ - 내부망 DB Table에서 결과 값 확인 (시간 정렬)
+ - TEST UI로 진행한 거래 건 transID 복사
+ -  cd data/Weblog/secureapi.test.eximbay/com/WEB-INF/log/230 따라서 들어가고. less new payment.log 로 확인 ‘/’ 로 검색 ( 붙여넣기는 S` + insert)
+ - XShell을 이용하여 TEST 서버 접근, 후 transID로 검색 
+ - 이후 transID에 맞는 Param 값으로 거래 건 확인. (Param값을 기준으로 BasicProccesor 코드 확인하기.)
 
