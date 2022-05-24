@@ -23,6 +23,8 @@
 - fgKey :  fgkey는 결제 별 새로 생성하는 것 (fgkey는 파라미터에 따라 다르다.)
 - return URL : 사용자 결제 완료 시 사용자한테 다시 보여주는 화면
 - Status URL : 사용자 결제 완료 시 백 단 데이터 API 전송 URL  
+- 노티 = Status URL, transid도 고유값.
+
 
 
 ### Capture, Auth
@@ -60,9 +62,4 @@
 - SVN -> Build -> 허드슨을 통해 dev 서버 반영
 - 파일 질라를 통해 테스트 서버 반영
 
-
-
-
- ### 인텔리제이
-- 인텔리제이 Gradle Setting 인텔리제이로 변경하기.
 
