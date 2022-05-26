@@ -51,9 +51,10 @@
 
 ### DB 계정 접속
 
-- 내부망 DB접속
+
 - 내부 서버 접속
 - 컨플런스 DB테이블 확인
+- transact 테이블 -> 원장 테이블
  
 
  ### 서버
@@ -69,7 +70,13 @@
  - TEST UI를 통해 테스트 진행
  - 내부망 DB Table에서 결과 값 확인 (시간 정렬)
  - TEST UI로 진행한 거래 건 transID 복사
- -  cd data/Weblog/secureapi.test.eximbay/com/WEB-INF/log/230 따라서 들어가고. less new payment.log 로 확인 ‘/’ 로 검색 ( 붙여넣기는 S` + insert)
- - XShell을 이용하여 TEST 서버 접근, 후 transID로 검색 
- - 이후 transID에 맞는 Param 값으로 거래 건 확인. (Param값을 기준으로 BasicProccesor 코드 확인하기.)
+ - cd data/Weblog/secureapi.test.eximbay/com/WEB-INF/log/230 따라서 들어가고. less new payment.log 로 확인 ‘/’ 로 검색 ( 붙여넣기는 S` + insert)
+ - X Shell을 이용하여 TEST 서버 접근, 후 transID로 검색 
+ - 이후 transID에 맞는 Param 값으로 거래 건 확인. (Param 값을 기준으로 BasicProccesor 코드 확인하기.)
+
+ 
+
+ ### 리포트 페이지
+ 
+ - 회원 관리 Mid : 가맹점 번호, TID : 거래 번호, REF : 
 
