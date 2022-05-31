@@ -8,6 +8,7 @@
 - Workbench : DB 도구
 - Docswave : 결제 문서
 - OKR : 스크럼 업로드
+- Host Toggle 사용
 
 ### 가맹점 검색
 
