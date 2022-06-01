@@ -22,6 +22,7 @@
 - return URL : 사용자 결제 완료 시 사용자한테 다시 보여주는 화면
 - Status URL : 사용자 결제 완료 시 백 단 데이터 API 전송 URL
 - 노티 = Status URL, transid도 고유값.
+- ! 여기서 Status URL은 엑심베이가 가맹점에게 보내는 정보이다.
 
 ### Capture, Auth
 
